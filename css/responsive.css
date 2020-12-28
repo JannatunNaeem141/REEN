@@ -1,0 +1,397 @@
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    /************ header section ***********/
+    .social-icons ul {
+        text-align: right;
+    }
+    .social-icons ul li {
+        margin-left: 9px;
+        margin-top: 10px;
+    }
+    .header-section .top-header .col-md-6 {
+        width: 50%;
+    }
+    .header-section .top-header .info ul li {
+        display: grid;
+    }
+    .header-section .main-menu .navbar-brand img {
+        height: 30px;
+        width: 104px;
+    }
+    .main-menu .navbar-light .navbar-nav .nav-link {
+        padding: 4px 0px;
+        font-size: 14px;
+        text-align: center;
+        font-weight: 700;
+    }
+    .main-menu .navbar-light .navbar-nav .active>.nav-link {
+        color: #00bc9c;
+        padding-top: 15px;
+    }
+    .form-inline {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /************ who-we section ***********/
+    .who-we-section {
+        padding: 50px 0px 30px 0px;
+    }
+    .who-we-section .title h1 {
+        font-size: 36px;
+    }
+    .who-we-section .title p {
+        font-size: 14px;
+        line-height: 21px;
+        width: 100%;
+    }
+    .who-we-section .media {
+        padding: 30px 10px;
+    }
+    .who-we-section .media .media-body h5 {
+        font-size: 18px;
+    }
+    .who-we-section .media .media-body p {
+        font-size: 13px;
+        line-height: 21px;
+    }
+    /************ portfolio section ***********/
+    .portfolio {
+        padding: 50px 0px;
+    }
+    .portfolio .title h1 {
+        font-size: 36px;
+    }
+    .portfolio .card-1 {
+        margin-bottom: 30px;
+    }
+    .portfolio .card-body .card-title {
+        font-size: 16px;
+    }
+    .portfolio .card-body .card-text {
+        font-size: 13px;
+    }
+    /************ get-touch section ***********/
+    .get-touch {
+        padding: 50px 0px;
+    }
+    .get-touch h2 {
+        font-size: 36px;
+    }
+    .get-touch .btn-info {
+        padding: 6px 15px;
+        margin-top: 17px;
+        font-size: 13px;
+        letter-spacing: 0px;
+    }
+    /************ footer section ***********/
+    .footer-section .top-footer {
+        padding: 50px 0px;
+    }
+    .footer-section .inner-widget .inner-img {
+        height: 27px;
+        width: 107px;
+    }
+    .footer-section .inner-widget p {
+        width: 85%;
+    }
+    .footer-section .inner-widget .padd {
+        width: 38%;
+    }
+    .footer-section .bottom-footer li {
+        padding-right: 22px;
+    }
+    .footer-section .bottom-footer li a {
+        font-size: 13px;
+    }
+    .footer-section .bottom-footer {
+        text-align: center;
+    }
+    .footer-section .bottom-footer h4 {
+        font-size: 12px;
+    }
+    .footer-section .bottom-footer .edit-item-2 {
+        padding-right: 10px;
+    }
+}
+
+
+/* 
+##Device = Low Resolution Tablets, Mobiles (Landscape)
+##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    /************ header section ***********/
+    .social-icons ul {
+        text-align: right;
+    }
+    .social-icons ul li {
+        margin-left: 14px;
+        margin-top: 10px;
+    }
+    .header-section .top-header .col-md-6 {
+        width: 50%;
+    }
+    .header-section .top-header .info ul li {
+        display: grid;
+    }
+    .header-section .main-menu .navbar-brand img {
+        height: 30px;
+        width: 104px;
+    }
+    .main-menu .navbar-light .navbar-nav .nav-link {
+        padding: 4px 0px;
+        font-size: 15px;
+        text-align: center;
+        font-weight: 700;
+    }
+    .main-menu .navbar-light .navbar-nav .active>.nav-link {
+        color: #00bc9c;
+        padding-top: 15px;
+    }
+    .form-inline {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /************ who-we section ***********/
+    .who-we-section {
+        padding: 50px 0px 30px 0px;
+    }
+    .who-we-section .title h1 {
+        font-size: 38px;
+    }
+    .who-we-section .title p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .who-we-section .media {
+        padding: 30px 10px;
+    }
+    .who-we-section .media .media-body h5 {
+        font-size: 18px;
+    }
+    .who-we-section .media .media-body p {
+        font-size: 13px;
+        line-height: 21px;
+        width: 70%;
+    }
+    /************ portfolio section ***********/
+    .portfolio {
+        padding: 50px 0px;
+    }
+    .portfolio .title h1 {
+        font-size: 38px;
+    }
+    .portfolio .card-1 {
+        margin-bottom: 30px;
+    }
+    .portfolio .card-body .card-title {
+        font-size: 17px;
+    }
+    .portfolio .card-body .card-text {
+        font-size: 14px;
+    }
+    /************ get-touch section ***********/
+    .get-touch {
+        padding: 50px 0px;
+    }
+    .get-touch h2 {
+        font-size: 38px;
+    }
+    .get-touch .btn-info {
+        padding: 8px 17px;
+        margin-top: 17px;
+        font-size: 13px;
+        letter-spacing: 0px;
+    }
+    /************ footer section ***********/
+    .footer-section .top-footer {
+        padding: 50px 0px;
+    }
+    .footer-section .inner-widget .inner-img {
+        height: 27px;
+        width: 107px;
+    }
+    .footer-section .inner-widget p {
+        width: 85%;
+    }
+    .footer-section .inner-widget .padd {
+        width: 25%;
+    }
+    .footer-section .bottom-footer li {
+        padding-right: 25px;
+    }
+    .footer-section .bottom-footer li a {
+        font-size: 14px;
+    }
+    .footer-section .bottom-footer {
+        text-align: center;
+    }
+    .footer-section .bottom-footer h4 {
+        font-size: 12px;
+    }
+    .footer-section .bottom-footer .footer-menu {
+        float: none;
+    }
+    .footer-section .bottom-footer ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+/* 
+##Device = Tablets, Ipads (portrait)
+##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    /************ header section ***********/
+    .header-section .main-menu .navbar-brand img {
+        height: 30px;
+        width: 104px;
+    }
+    .main-menu .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+    }
+    .form-inline {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /************ slider section ***********/
+    .slider .carousel-caption h2 {
+        font-size: 36px;
+    }
+    .slider .carousel-caption p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .slider .carousel-caption {
+        bottom: 15%;
+    }
+    .slider .carousel-inner .test3 {
+        bottom: 15%;
+    }
+    .slider .carousel-inner .test3 .part-1 {
+        padding: 0px 0px 0px 10px;
+        width: 260px;
+        margin-bottom: 5px;
+    }
+    .slider .carousel-inner .test3 .part-2 {
+        padding: 2px 0px 0px 12px;
+        width: 350px;
+        margin-bottom: 10px;
+    }
+    .slider .carousel-caption .btn-info {
+        padding: 7px 13px;
+        letter-spacing: 0px;
+        margin-top: 20px;
+        font-size: 13px;
+    }
+    /************ who we section ***********/
+    .who-we-section {
+        padding: 60px 0px 20px 0px;
+    }
+    .who-we-section .title h1 {
+        font-size: 38px;
+    }
+    .who-we-section .title p {
+        font-size: 13px;
+        line-height: 21px;
+        width: 75%;
+    }
+    .who-we-section .media {
+        padding: 31px 0px;
+    }
+    .who-we-section .media .media-body p {
+        font-size: 13px;
+        line-height: 21px;
+    }
+    /************ portfolio section ***********/
+    .portfolio {
+        padding: 60px 0px;
+    }
+    .portfolio .title h1 {
+        font-size: 38px;
+    }
+    .portfolio .card-body .card-title {
+        font-size: 16px;
+    }
+    /************ get touch section ***********/
+    .get-touch {
+        padding: 60px 0px;
+    }
+    .get-touch h2 {
+        font-size: 38px;
+    }
+    .get-touch .btn-info {
+        padding: 7px 25px;
+        letter-spacing: 0px;
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    /************ footer section ***********/
+    .footer-section .bottom-footer h4 {
+        font-size: 13px;
+        padding-top: 8px;
+    }
+    .footer-section .inner-widget .form .btn-primary {
+        top: 5px;
+        right: 3px;
+        font-size: 9px;
+        padding: 4px 3px;
+        letter-spacing: 0px;
+    }
+    .footer-section .inner-widget .form .form-control {
+        padding: 9px;
+        font-size: 11px;
+        height: 33px;
+    }
+}
+
+
+/* 
+##Device = Laptops, Desktops
+##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    /************ slider section ***********/
+    .slider .carousel-caption h2 {
+        font-size: 39px;
+    }
+    .slider .carousel-caption p {
+        font-size: 17px;
+        line-height: 22px;
+    }
+    .slider .carousel-caption {
+        bottom: 30%;
+    }
+    .slider .carousel-inner .test3 {
+        bottom: 20%;
+    }
+    .slider .carousel-inner .test3 .part-1 {
+        padding: 5px 0px 5px 15px;
+        width: 270px;
+        margin-bottom: 5px;
+    }
+    .slider .carousel-inner .test3 .part-2 {
+        padding: 5px 0px 5px 15px;
+        width: 370px;
+        margin-bottom: 15px;
+    }
+    .slider .carousel-caption .btn-info {
+        padding: 9px 16px;
+        letter-spacing: 0px;
+        margin-top: 25px;
+        font-size: 14px;
+    }
+}
